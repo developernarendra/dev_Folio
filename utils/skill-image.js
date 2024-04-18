@@ -72,8 +72,8 @@ import vuetifyjs from '/public/svg/skills/vuetifyjs.svg';
 import webix from '/public/svg/skills/webix.svg';
 import wolframalpha from '/public/svg/skills/wolframalpha.svg';
 import wordpress from '/public/svg/skills/wordpress.svg';
-
-
+import express from '/public/svg/skills/express.svg'
+import node from '/public/svg/skills/node.svg'
 export const skillsImage = (skill) => {
   const skillID = skill.toLowerCase();
   switch (skillID) {
@@ -83,6 +83,10 @@ export const skillsImage = (skill) => {
       return html;
     case 'photoshop':
       return photoshop;
+    case 'express':
+      return express;
+    case 'node':
+      return node;
     case 'docker':
       return docker;
     case 'illustrator':
