@@ -28,7 +28,7 @@ function HeroSection() {
             <span className=" text-pink-500">{personalData.name}</span>
             {` , I'm a `}
             <span className=" text-[#16f2b3]">{personalData.designation}</span>
-            .
+            .{` And Passionate About Crafting Efficient Code 🚀`}
           </h1>
 
           <div className="my-12 flex items-center gap-5">
